@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 .container {
   width: 1153px;
 }
@@ -23,8 +16,7 @@ body {
 
 .navbar {
   background: #212338;
-  -webkit-box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.25);
   position: fixed;
 }
 .navbar .container .nav-brand {
@@ -43,8 +35,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 12px; /* 50% */
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
   cursor: pointer;
 }
@@ -64,8 +54,7 @@ body {
 }
 .hero .display-1 {
   width: 565px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   color: #FFF;
   font-size: 62px;
   font-style: normal;
@@ -82,27 +71,19 @@ body {
   margin-top: 50px;
 }
 .hero .buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 26px;
   margin-top: 58px;
 }
 .hero .btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 13px;
   width: 200px;
   height: 60px;
 }
 .hero .btn:hover {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 .hero .btn__link {
   color: #FFF;
@@ -136,8 +117,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 12px; /* 19.355% */
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
   cursor: pointer;
 }
@@ -151,15 +130,15 @@ body {
   padding: 20px;
   padding-top: 33px;
   margin-top: 76px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   background-color: #2B2E41;
-  -webkit-box-shadow: 40px 40px 40px 0px rgba(0, 0, 0, 0.25);
-          box-shadow: 40px 40px 40px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 40px 40px 40px 0px rgba(0, 0, 0, 0.25);
 }
 .cards .card .card-img-top {
   position: relative;
-  left: -84px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
 }
 .cards .card .card-title {
   width: 178px;
@@ -207,8 +186,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 12px; /* 19.355% */
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
   cursor: pointer;
 }
@@ -218,8 +195,6 @@ body {
 }
 
 .image-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
 }
@@ -285,8 +260,6 @@ body {
 }
 
 .historiya {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -297,18 +270,13 @@ body {
 .footer {
   width: 1920px;
   height: 378px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   background: #191A28;
   padding-top: 60px;
 }
 .footer .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .footer .nav-brand {
   color: #FFF;
@@ -350,16 +318,10 @@ body {
   text-decoration: none;
 }
 .list .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 25px;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-end;
+  align-items: center;
   margin-top: 124px;
 }
 
@@ -377,4 +339,4 @@ body {
   .navbar .logo .nav-brand {
     display: block;
   }
-}
+}/*# sourceMappingURL=main.css.map */
